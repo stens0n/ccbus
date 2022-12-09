@@ -16,13 +16,13 @@ const Pricing = () => {
 
             <div className="grid md:grid-cols-2">
 
-                <div>
-                    <span>Basic Website</span>
+                <div className="bg-white text-slate-900 m-4 p-8 rounded-xl shadow-2xl">
+                    <span className="uppercase px-3 py-1 bg-indigo-200 text-indigo-900 rounded-2xl text-sm">Basic Website</span>
                     <div>
-                        <p>$299<span>/per project</span></p>
+                        <p className="text-6xl font-bold py-4 flex">$299<span className='text-xl text-slate-500 flex flex-col justify-end'>/per project</span></p>
                     </div>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-                    <div>
+                    <div className="text-2xl py-8 text-slate-500">
                         <p><CheckIcon className='w-7 mr-5 text-green-600' />Lorem, ipsum dolor.</p>
                         <p><CheckIcon className='w-7 mr-5 text-green-600' />Lorem, ipsum dolor.</p>
                         <p><CheckIcon className='w-7 mr-5 text-green-600' />Lorem, ipsum dolor.</p>
