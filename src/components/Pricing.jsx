@@ -21,13 +21,13 @@ const Pricing = () => {
                     <div>
                         <p className="text-6xl font-bold py-4 flex">$299<span className='text-xl text-slate-500 flex flex-col justify-end'>/per project</span></p>
                     </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-                    <div className="text-2xl py-8 text-slate-500">
-                        <p><CheckIcon className='w-7 mr-5 text-green-600' />Lorem, ipsum dolor.</p>
-                        <p><CheckIcon className='w-7 mr-5 text-green-600' />Lorem, ipsum dolor.</p>
-                        <p><CheckIcon className='w-7 mr-5 text-green-600' />Lorem, ipsum dolor.</p>
-                        <p><CheckIcon className='w-7 mr-5 text-green-600' />Lorem, ipsum dolor.</p>
-                        <p><CheckIcon className='w-7 mr-5 text-green-600' />Lorem, ipsum dolor.</p>
+                    <p className="text-2xl py-8 text-slate-500">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                    <div>
+                        <p className="flex py-4"><CheckIcon className='w-7 mr-5 text-green-600' />Lorem, ipsum dolor.</p>
+                        <p className="flex py-4"><CheckIcon className='w-7 mr-5 text-green-600' />Lorem, ipsum dolor.</p>
+                        <p className="flex py-4"><CheckIcon className='w-7 mr-5 text-green-600' />Lorem, ipsum dolor.</p>
+                        <p className="flex py-4"><CheckIcon className='w-7 mr-5 text-green-600' />Lorem, ipsum dolor.</p>
+                        <p className="flex py-4"><CheckIcon className='w-7 mr-5 text-green-600' />Lorem, ipsum dolor.</p>
                         <button>Get Started</button>
                     </div>
                 </div>
