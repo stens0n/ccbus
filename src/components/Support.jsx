@@ -13,7 +13,7 @@ import supImg from '../assets/Peabody-MA.jpg';
 
 const Support = () => {
   return (
-    <div className="w-full mt-24">
+    <div name='services' className="w-full mt-24 ">
         <div className='w-full h-[700px] bg-gray-800/90 absolute'>
             <img className="w-full h-full object-cover mix-blend-overlay" src={supImg} alt="/"/>
         </div>

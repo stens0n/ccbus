@@ -3,7 +3,7 @@ import {CheckIcon} from '@heroicons/react/24/solid'
 
 const Pricing = () => {
   return (
-    <div className="w-full text-white my-24">
+    <div name='pricing' className="w-full text-white my-24">
         <div className="w-full h-[800px] bg-blue-600 absolute mix-blend-overlay"></div>
 
         <div className="max-w-[1240px] mx-auto py-12">

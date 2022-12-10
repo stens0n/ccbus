@@ -4,9 +4,15 @@ import About from './components/About';
 import Support from './components/Support';
 import Pricing from './components/Pricing';
 import Footer from './components/Footer';
+import Work from './components/Work';
+
+import {Routes, Route} from 'react-router-dom';
+
 
 function App() {
   return (
+    
+
     <div>
       <Navbar />
       <Hero />
@@ -15,6 +21,9 @@ function App() {
       <Pricing />
       <Footer />
     </div>
+
+    
+    
   );
 }
 

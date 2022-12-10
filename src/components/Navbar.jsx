@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 
+import {Link, animateScroll as Scroll} from 'react-scroll';
+
 import  {Bars3Icon, XMarkIcon}  from '@heroicons/react/24/outline';
+
+
 
 const Navbar = () => {
   const [nav, setNav] = useState(false)
@@ -18,12 +22,12 @@ const Navbar = () => {
               <h1 className='text-blue-800 text-3xl font-bold mr-4 sm:text-4xl'>Stenson</h1>
               <h1 className='text-blue-800 text-sm mr-10 my-4 font-mono '>Dev Group</h1>
               <ul className='hidden md:flex'> 
-              <li>Home</li>
-              <li>About</li>
-              <li>Support</li>
-              <li>Platforms</li>
-              <li>Pricing</li>
+              <li><Link to="home" smooth={true} duration={500}>Home</Link></li>
+              <li><Link to="services" smooth={true} offset={-200} duration={500}>Services</Link></li>
+              <li><Link to="pricing" smooth={true} offset={-50} duration={500}>Pricing</Link></li>
+              <li><a href="/Work">Work</a></li>
               </ul>
+              
             </div>
             <div className='hidden md:flex pr-4'>
                 <button className='border-none bg-transparent text-black mr-4'>Sign In</button>
