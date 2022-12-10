@@ -4,7 +4,7 @@ import {CheckIcon} from '@heroicons/react/24/solid'
 const Pricing = () => {
   return (
     <div className="w-full text-white my-24">
-        <div className="w-full h-[800px] bg-slate-900 absolute mix-blend-overlay"></div>
+        <div className="w-full h-[800px] bg-blue-600 absolute mix-blend-overlay"></div>
 
         <div className="max-w-[1240px] mx-auto py-12">
 
@@ -32,9 +32,9 @@ const Pricing = () => {
                     </div>
                 </div>
                 <div className="bg-white text-slate-900 m-4 p-8 rounded-xl shadow-2xl relative">
-                    <span className="uppercase px-3 py-1 bg-indigo-200 text-indigo-900 rounded-2xl text-sm">Business Professional Website</span>
+                    <span className="uppercase px-3 py-1 bg-indigo-200 text-indigo-900 rounded-2xl text-sm">Multi-page Website</span>
                     <div>
-                        <p className="text-6xl font-bold py-4 flex">$999<span className='text-xl text-slate-500 flex flex-col justify-end'>/per project</span></p>
+                        <p className="text-6xl font-bold py-4 flex">$649<span className='text-xl text-slate-500 flex flex-col justify-end'>/per project</span></p>
                     </div>
                     <p className="text-2xl py-8 text-slate-500">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
                     <div className="text-2xl">
