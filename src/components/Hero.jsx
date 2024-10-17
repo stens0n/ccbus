@@ -13,10 +13,13 @@ const Hero = () => {
     <div name='home' className="w-full h-screen bg-zinc-300 flex flex-col justify-between">
         <div className="grid md:grid-cols-2 max-w-[1240px] m-auto " >
             <div className="flex flex-col justify-center md:items-start w-full px-2 py-8">
-                <p className="text-2xl">Peabody Locally Owned</p>
+                <p className="text-2xl">Peabody locally owned</p>
                 <h1 className="text-blue-800 py-3 text-5xl md:text-7xl font-bold">Web Creation & Hosting</h1>
-                <p className="text-2xl">Resumes, Portfolio's, Businesses</p>
-                <button className='py-3 px-6 sm:w-[60%] my-4'>Free Consultation</button>
+                <p className="text-2xl">Does your <strong>small business</strong> need an <strong>affordable website?</strong></p>
+                <br />
+                <p className="text-xl">A high-quality website doesn’t have to break the bank. We deliver websites at a fraction of the cost our competitors charge.
+                </p>
+                <button className='py-3 px-6 sm:w-[60%] my-4'>Portfolio</button>
             </div>
             <div>
                 <img src={bgImg} className='w-auto h-[400px]' alt='/' />

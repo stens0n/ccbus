@@ -19,7 +19,9 @@ function App() {
       <About />
       <Support />
       <Pricing />
+      <Work />
       <Footer />
+      
     </div>
 
     
