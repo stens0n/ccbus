@@ -25,10 +25,10 @@ const Pricing = () => {
                     </div>
                     <p className="text-2xl py-8 text-slate-500">Custom, modern website design tailored to your needs.</p>
                     <div className="text-2xl">
-                        <p className="flex py-4"><CheckIcon className='w-7 mr-5 text-green-600' />Fully responsive for mobile, tablet, and desktop.</p>
-                        <p className="flex py-4"><CheckIcon className='w-7 mr-5 text-green-600' />SEO-friendly structure for better visibility.</p>
+                        <p className="flex py-4"><CheckIcon className='w-7 mr-5 text-green-600' />Mobile and Desktop.</p>
                         <p className="flex py-4"><CheckIcon className='w-7 mr-5 text-green-600' />Easy-to-manage updates.</p>
-                        <p className="flex py-4"><CheckIcon className='w-7 mr-5 text-green-600' />Free Domain Name.</p>
+                        <p className="flex py-4"><CheckIcon className='w-7 mr-5 text-green-600' />SSL certificates.</p>
+                        <p className="flex py-4"><CheckIcon className='w-7 mr-5 text-green-600' />SEO-friendly.</p>
                         <p className="flex py-4"><CheckIcon className='w-7 mr-5 text-green-600' />Affordable Hosting.</p>
                         <button className="w-full py-4 my-4">Get Quote</button>
                     </div>
@@ -42,8 +42,8 @@ const Pricing = () => {
                     <div className="text-2xl">
                         <p className="flex py-4"><CheckIcon className='w-7 mr-5 text-green-600' />Advanced Customization.</p>
                         <p className="flex py-4"><CheckIcon className='w-7 mr-5 text-green-600' />Priority Support.</p>
-                        <p className="flex py-4"><CheckIcon className='w-7 mr-5 text-green-600' />Advanced Customization.</p>
-                        <p className="flex py-4"><CheckIcon className='w-7 mr-5 text-green-600' />Priority Support.</p>
+                        <p className="flex py-4"><CheckIcon className='w-7 mr-5 text-green-600' />E-commerce Integration.</p>
+                        <p className="flex py-4"><CheckIcon className='w-7 mr-5 text-green-600' />Advanced SEO Optimization.</p>
                         <p className="flex py-4"><CheckIcon className='w-7 mr-5 text-green-600' />Priority Support.</p>
                         <button className="w-full py-4 my-4">Get Quote</button>
                     </div>

@@ -37,10 +37,10 @@ const Navbar = () => {
                   <Link to="services" smooth={true} offset={-200} duration={500}>Services</Link>
                 </li>
                 <li className="hover:text-blue-500 cursor-pointer transition duration-300">
-                  <Link to="pricing" smooth={true} offset={-50} duration={500}>Pricing</Link>
+                  <Link to="pricing" smooth={true} offset={-50} duration={500}>Packages</Link>
                 </li>
                 <li className="hover:text-blue-500 cursor-pointer transition duration-300">
-                  <a href="/Work">Work</a>
+                <Link to="work" smooth={true} offset={-50} duration={500}>Portfolio</Link>
                 </li>
               </ul>
             </div>
@@ -56,7 +56,7 @@ const Navbar = () => {
               <li className='border-b-2 border-zinc-300 w-full'>About</li>
               <li className='border-b-2 border-zinc-300 w-full'>Support</li>
               <li className='border-b-2 border-zinc-300 w-full'>Platforms</li>
-              <li className='border-b-2 border-zinc-300 w-full'>Pricing</li>
+              <li className='border-b-2 border-zinc-300 w-full'>Packages</li>
               <div className='flex flex-col my-4'>
                 
                 <button className='px-8 py-3'>
