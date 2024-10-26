@@ -2,7 +2,7 @@ import React from 'react';
 
 const Work = () => {
   return (
-    <section id='work' name='Work' className="text-gray-600 body-font">
+    <section id='work' name='Work' className="text-gray-600 body-font ">
       <div className="container px-5 py-24 mx-auto">
         <h1 className="text-3xl font-bold text-gray-900 mb-8 text-center">Portfolio</h1>
         <div className="flex flex-wrap -m-4">

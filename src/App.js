@@ -16,7 +16,6 @@ function App() {
     <div>
       <Navbar />
       <Hero />
-      <About />
       <Support />
       <Pricing />
       <Work />
